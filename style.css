@@ -1,10 +1,16 @@
 body{
-    margin: 0;
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+marquee{
+    color:aqua;;
+    font-size: 30px;
+    padding: 20px 20px 20px 20px;
+    text-shadow: violet;
+    background-color: tomato;
 }
 section{
-    height: 500px;
-    padding-bottom: 150px;
+    height: 600px;
 }
 .top-section{
     background-image: url("images/shapes/Group\ 8450.png");
@@ -16,33 +22,31 @@ section{
     margin-left: 5%;
     padding-left: 2%;
 }
+
 h1{
     font-size: 50px;
 }
 h1 span{
     color: orange;
 }
-.half-width img{
-    width: 100%;
-}
-.One-third{
-    width:30%;
-}
+
 .anchor-button{
     text-decoration: none;
-    background: linear-gradient(45deg, lightsalmon, tomato);
-    padding: 10px 40px;
-    border-radius: 20px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 20px 50px;
+    border-radius: 30px;
     color: white;
-    font-weight: 700;
+    font-weight: 900;
+    box-shadow: 10px 10px 40px wheat;
 }
 p{
     color: dimgray;
 }
 .middle-section{
-    background-image: url("images/shapes/Frame\ 57.jpg");
+    background-image: url("images/shapes/Frame\ 58.jpg");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position:center;
+    padding-top: 100px;
 }
 h2{
     font-size: 40px;
@@ -50,27 +54,82 @@ h2{
 .last-section{
     background-repeat: no-repeat;
     background-position: left;
-    
-}
-.Recipes{
-    display:flex;
+    height: 1200px;
     
 }
 .position-center{
     text-align: center;
+    width: 50%;
+    margin-right: 350px;
+    margin-left: 350px;
+
+}
+.position-center h2{
+color: gray;
 }
 .last-section h3{
     color: orange;
 }
-
-#Recipe-one{  
-    padding: 5%;
-    width: 30%;
+.Recipes{
+    display:flex;
+    margin-right: 50px;
+    margin-left: 50px;
+     
 }
+.One-third{
+    height: 600px;
+    width:26%;
+    padding: 20px 20px 20px 20px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 10px 10px 40px gainsboro;
+    margin: 20px 30px 20px 30px;  
+    word-wrap:break-word;
+    
+}
+.One-third h3{
+    color: orangered;
+    font-size: 30px;
+}
+.One-third img{
+    width:100% ;
+    height: 50%;
+    margin: 1px 1px;
+    border-radius: 12px;
+}
+.Extra{
+    height: 20%;
+    width: 89%;
+    display:flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 10px 10px 40px gainsboro;
+
+}
+.Extra1{
+    
+    width: 30%;
+    text-align: center;
+    color: black;
+    margin-right: 40px;
+}
+.Extra1 h3{
+    font-size: 40px;
+}
+.Extra1 p{
+    font-size: 20px;
+}
+
 footer{
     text-align: center;
     height: 200px;
     width: 100%;
     background-color: black;
- 
+    color: aqua;
+}
+footer p{
+    color: aqua;
 }
